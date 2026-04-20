@@ -1,5 +1,9 @@
 {
-  "functions": { "api/mcp.ts": { "maxDuration": 60 } },
+  "buildCommand": "echo 'API only — no build needed'",
+  "outputDirectory": ".",
+  "functions": {
+    "api/mcp.ts": { "maxDuration": 60 }
+  },
   "routes": [
     { "src": "/mcp", "dest": "/api/mcp" },
     { "src": "/health", "dest": "/api/mcp" }
