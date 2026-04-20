@@ -1,12 +1,10 @@
 {
   "name": "github-mcp-vercel",
   "version": "1.0.0",
-  "description": "GitHub MCP server deployable to Vercel — gives Cowork full GitHub access via URL",
+  "description": "GitHub MCP server for Vercel — 11 tools for Cowork",
   "private": true,
   "scripts": {
-    "build": "tsc",
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
+    "build": "echo 'Vercel compiles TypeScript automatically'"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.1",
@@ -18,5 +16,5 @@
     "typescript": "^5.4.5",
     "@vercel/node": "^3.0.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": { "node": ">=20.x" }
 }
